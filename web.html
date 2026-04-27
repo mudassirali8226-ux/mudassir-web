@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Store</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #497985;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #a9e00f;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #15ff00;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #1e3a5f;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 34vh;
+    background: linear-gradient(135deg, #d2eb79, #420764);
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.hero-text {
+     max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #222;
+}
+
+.hero-text h1 span {
+    display: block;
+    color: #08144d;
+    font-style: italic;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    color: #666;
+}
+
+.hero-text button {
+    
+    border: none;
+    background: #1e3a5f;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   border-radius: 3pc;
+    transition: 0.3s;
+}
+
+.hero-text button:hover {
+    background: #ff08f3;
+}
+
+/* CATEGORY SECTION */
+.category {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.category h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e3a5f;
+    color: white;
+    margin-top: 40px;
+}
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">MS CLOTHES</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">foot ball</a>
+        <a href="#">cricket</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero Banner -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>MS CLOTHES  <span>Trending Sport Clothes is here </span></h1>
+        <p>Trending fashion styles</p>
+        <button>Shop Now</button>
+    </div>
+</section>
+
+<!-- Category -->
+<section class="category">
+    <h2>SPORTs SHIRTS</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="kholi.jpg" alt="not show">
+            <h3>Virat kholi Rcb 2026 Jersey</h3>
+        </div>
+
+        <div class="card">
+            <img src="fakhar.jpg" alt="not show">
+            <h3>Pakistan t20 Jersey</h3>
+        </div>
+
+        <div class="card">
+            <img src="rona.jpg" alt="not show">
+            <h3>Ronaldo Jersey </h3>
+        </div>
+         <div class="card">
+            <img src="grreen.jpg" alt="not show">
+            <h3>Virat kholi Green Jersey</h3>
+        </div>
+         <div class="card">
+            <img src="Los-Angeles-Lakers-Jersey-NBA-Basketball.webp" alt="not show">
+            <h3>Los Angeles Lakers Jersey – NBA Basketball</h3>
+        </div>
+         <div class="card">
+            <img src="kholi.jpg" alt="not show">
+            <h3>Virat Rcb Jersey</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Fashion Store</p>
+</footer>
+
+</body>
+</html>
